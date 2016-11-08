@@ -1,0 +1,6 @@
+- les commentaires
+- les feedback (emplacement de spots, victoire, transition, ...)
+- un bug de collision (sur les barrières, apparait sporadiquement, je vois pas encore trop d'ou ca vient)
+- bug de changement de joueur
+- bug placement de barrière (tableau trop petit)
+- l'ouverture du github

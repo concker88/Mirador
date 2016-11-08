@@ -1,0 +1,42 @@
+/*select body and modify margin*/
+@font-face {
+	font-family: 'PressStart2P';
+	src: url('fonts/PressStart2P-Regular.eot');
+	src: local('☺'), url('fonts/PressStart2P-Regular.woff') format('woff'), url('fonts/PressStart2P-Regular.ttf') format('truetype'), url('fonts/PressStart2P-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'pixelart';
+	src: url('fonts/pixelart.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+#game-container
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 1500px;
+    height: 900px;
+    margin-left: -750px;
+    margin-top: -450px;
+    background-color: rgba(128, 128, 128, 1);
+}
+
+#font-loader
+{
+	position: absolute;
+	left:0;
+	top:0;
+	font-family: 'PressStart2P';
+	opacity: 0;
+}
